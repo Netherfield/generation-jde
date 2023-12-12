@@ -1,7 +1,0 @@
-pyproject.toml
-eneration_class_project.egg-info/PKG-INFO
-eneration_class_project.egg-info/SOURCES.txt
-eneration_class_project.egg-info/dependency_links.txt
-eneration_class_project.egg-info/top_level.txt
-generation_class_project/__init__.py
-generation_class_project/arithmetic.py

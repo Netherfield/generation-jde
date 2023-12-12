@@ -28,6 +28,8 @@ in the src/_myproject_ directory (or where pyproject.toml is located) run:
 py -m build
 
 
-
+# to install with pip
+install a python package from a repo subdirectory:
+pip install -e "git+https://github.com/Netherfield/generation-jde.git#egg=generation_class_project&subdirectory=src"
 
 
