@@ -30,6 +30,5 @@ py -m build
 
 # to install with pip
 install a python package from a repo subdirectory:
-pip install --upgrade "git+https://github.com/Netherfield/generation-jde.git#egg=generationproject&subdirectory=src/generationproject"
-
+pip install --force-reinstall --no-deps "git+https://github.com/Netherfield/generation-jde.git#egg=generationproject&subdirectory=src/generationproject"
 

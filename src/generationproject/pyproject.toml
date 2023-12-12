@@ -18,7 +18,7 @@ classifiers = [
 ]
 
 [tool.setuptools]
-py-modules = ["__init__", "arithmetic", "helloeveryone", "newmodule"]
+py-modules = ["__init__", "arithmetic", "helloeveryone", "newmodule", "chatgpt"]
 
 [project.urls]
 Documentaton = "https://github.com/Netherfield/generation-jde/docs"

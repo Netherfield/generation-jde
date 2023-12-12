@@ -1,6 +1,8 @@
 __init__.py
 arithmetic.py
+chatgpt.py
 helloeveryone.py
+newmodule.py
 pyproject.toml
 generationproject.egg-info/PKG-INFO
 generationproject.egg-info/SOURCES.txt
