@@ -17,5 +17,8 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
+[tool.setuptools]
+py-modules = ["__init__", "arithmetic", "helloeveryone"]
+
 [project.urls]
 Documentaton = "https://github.com/Netherfield/generation-jde/docs"
