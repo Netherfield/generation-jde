@@ -3,7 +3,7 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "eneration_class_project"
+name = "generation_class_project"
 version = "0.0.1"
 authors = [
   { name="Netherfield"},
