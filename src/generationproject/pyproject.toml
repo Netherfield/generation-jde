@@ -18,7 +18,7 @@ classifiers = [
 ]
 
 [tool.setuptools]
-py-modules = ["__init__", "funzioniUtili"]
+py-modules = ["__init__", "funzioniUtili", "generation"]
 
 [project.urls]
 Documentaton = "https://github.com/Netherfield/generation-jde/docs"

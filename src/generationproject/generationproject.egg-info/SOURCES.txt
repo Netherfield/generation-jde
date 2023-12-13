@@ -1,5 +1,6 @@
 __init__.py
 funzioniUtili.py
+generation.py
 pyproject.toml
 generationproject.egg-info/PKG-INFO
 generationproject.egg-info/SOURCES.txt
