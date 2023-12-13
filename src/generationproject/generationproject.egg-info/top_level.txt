@@ -1,5 +1,2 @@
 __init__
-arithmetic
-chatgpt
-helloeveryone
-newmodule
+funzioniUtili
