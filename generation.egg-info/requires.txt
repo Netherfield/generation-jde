@@ -1,4 +1,0 @@
-
-[ipython]
-ipykernel
-jupyter_console
