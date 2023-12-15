@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: generation
+Version: 0.0.0
+Summary: Materials part of generation's JDE course
+License: MIT
+Project-URL: Documentaton, https://github.com/Netherfield/generation-jde/docs
+Project-URL: Code, https://github.com/Netherfield/generation-jde
+Project-URL: Issue tracker, https://github.com/Netherfield/generation-jde/issues
+Classifier: Intended Audience :: Generation Partecipants/Alumni
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Provides-Extra: ipython
+Requires-Dist: ipykernel; extra == "ipython"
+Requires-Dist: jupyter_console; extra == "ipython"
+
+## libgeneration library
+Repository for generation's class libraries. Uploaded to TestPyPi.
+
+# TO-DO
+- ✅ Make it a python library
+- ⬜ Upload to testpypi
+- ⬜ Understand usage of setuptools-scm
+

@@ -18,4 +18,41 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+import importlib
+import sys
+from pathlib import Path
 
+from setuptools import setup
+
+ROOT = Path(__file__).parent.resolve()
+sys.path.insert(0, ROOT.as_posix())
+
+# used to determine if module dependencies can be imported
+# def can_import(module):
+#     try:
+#         importlib.import_module(module)
+#     except Exception:
+#         return False
+#     return True
+
+# def get_my_modules():
+#     # Check we have the modules around. If not, none of these will get built.
+#     if not can_import("my_modules.pkgconfig"):
+#         print("Package is missing")
+#         return
+
+#     my_modules = []
+
+#     # Wayland backend dependencies
+#     if can_import("dependencies_build"):
+#         my_modules.append("libgeneration/dependencies/build.py")
+#     else:
+#         print("Failed to find module. Dependencies not built.")
+
+#     return my_modules
+
+setup(
+    # use_scm_version=True,
+    # my_modules=get_my_modules(),
+    # include_package_data=True,
+)

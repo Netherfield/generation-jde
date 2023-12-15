@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+generation.egg-info/PKG-INFO
+generation.egg-info/SOURCES.txt
+generation.egg-info/dependency_links.txt
+generation.egg-info/requires.txt
+generation.egg-info/top_level.txt
+libgeneration/__init__.py
+libgeneration/funzioniUtili.py

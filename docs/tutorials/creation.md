@@ -10,5 +10,5 @@ in the src/_myproject_ directory (or where pyproject.toml is located) run:
 py -m build
 
 ### upload to TestPyPi through Twine
-
-
+run inside the project folder:
+py -m twine upload --repository testpypi dist/*

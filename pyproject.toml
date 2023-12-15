@@ -6,11 +6,10 @@ build-backend = "setuptools.build_meta"
 name = "generation"
 description = "Materials part of generation's JDE course"
 dynamic = ["version", "readme", "dependencies", "optional-dependencies"]
-license = {text = "MIT}
+license = {text = "MIT"}
 classifiers = [
-  "Intended Audience :: Generation Partecipants/Alumni,
+  "Intended Audience :: Generation Partecipants/Alumni",
   "License :: OSI Approved :: MIT License",
-  "Operating System :: 
   "Programming Language :: Python :: 3 :: Only",
   "Programming Language :: Python :: 3.10",
   "Operating System :: OS Independent",
@@ -23,16 +22,5 @@ classifiers = [
 [tool.setuptools.packages.find]
 include = ["libgeneration*"]
 
-
-
-
-version = "0.0.1"
-authors = [
-  { name="Jules"},
-]
-readme = "README.md"
-requires-python = ">=3.10"
-
-
-[tool.setuptools]
-py-modules = ["__init__", "funzioniUtili", "generation"]
+[tool.setuptools.dynamic]
+readme = {file = "README.md"}
