@@ -12,6 +12,12 @@ py -m build
 ### upload to TestPyPi through Twine
 run inside the project folder:
 py -m twine upload --config-file E:\git\generation\Python\libraries\token\.pypirc --repository testpypi dist/*
+.pypirc:
+```
+[testpypi]
+  username = __token__
+  password = pypi-$your_token$
+```
 
 
 ### to install
