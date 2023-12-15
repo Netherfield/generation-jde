@@ -1,5 +1,8 @@
 [build-system]
-requires = ["setuptools"]
+requires = [
+    "setuptools>=60",
+    "setuptools-scm"
+]
 build-backend = "setuptools.build_meta"
 
 [project]
@@ -22,6 +25,12 @@ classifiers = [
 
 [tool.setuptools.packages.find]
 include = ["libgeneration*"]
+
+[tool.setuptools_scm]
+
+# [tool.setuptools_scm]
+# version_file = "generation/_version.py"
+
 
 [tool.setuptools.dynamic]
 readme = {file = "README.md"}

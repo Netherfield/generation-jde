@@ -1,5 +1,6 @@
 #!/bin/sh
 
+# run to create environment necessary to build project
 
 echo "Creating dev environment in ./venv..."
 

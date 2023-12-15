@@ -3,6 +3,7 @@ include README
 include MANIFEST.in
 
 exclude requirements.txt
+exclude _version.py
 
 graft test
 
