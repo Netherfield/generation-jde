@@ -8,7 +8,7 @@ description = "Materials part of generation's JDE course"
 dynamic = ["version", "readme", "dependencies", "optional-dependencies"]
 license = {text = "MIT"}
 classifiers = [
-  "Intended Audience :: Generation Partecipants/Alumni",
+  "Intended Audience :: Education",
   "License :: OSI Approved :: MIT License",
   "Programming Language :: Python :: 3 :: Only",
   "Programming Language :: Python :: 3.10",
