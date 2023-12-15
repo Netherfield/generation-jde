@@ -1,7 +1,0 @@
-__init__.py
-funzioniUtili.py
-pyproject.toml
-generationproject.egg-info/PKG-INFO
-generationproject.egg-info/SOURCES.txt
-generationproject.egg-info/dependency_links.txt
-generationproject.egg-info/top_level.txt
