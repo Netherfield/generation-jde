@@ -18,28 +18,22 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-import importlib
-import sys
-from pathlib import Path
+# import importlib
+# import sys
+# from pathlib import Path
 
 from setuptools import setup
 
-ROOT = Path(__file__).parent.resolve()
-sys.path.insert(0, ROOT.as_posix())
-
-# to avoid using the local scheme with testpypi won't allow
-# def local_scheme(version):
-#     """Skip the local version (eg. +xyz of 0.6.1.dev4+gdf99fe2)
-#     to be able to upload to Test PyPI"""
-#     return ""
+# ROOT = Path(__file__).parent.resolve()
+# sys.path.insert(0, ROOT.as_posix())
 
 setup(
-    # use_scm_version=True,
-    # to avoid using local scheme
-    # use_scm_version={"local_scheme": local_scheme},
+    version="0.0.1"
     # my_modules=get_my_modules(),
     # include_package_data=True,
 )
+
+
 
 
 # used to determine if module dependencies can be imported
