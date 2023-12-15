@@ -12,3 +12,8 @@ py -m build
 ### upload to TestPyPi through Twine
 run inside the project folder:
 py -m twine upload --repository testpypi dist/*
+
+
+### to install
+py -m pip install --index-url https://test.pypi.org/simple/ --no-deps example-package-YOUR-USERNAME-H
+

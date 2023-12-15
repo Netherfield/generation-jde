@@ -6,7 +6,7 @@
 # is this the same as MANIFEST.in ...or do I need the suffix
 MANIFEST
 # or however it's called
-./libgeneration.egg-info
+./generation.egg-info
 
 # project buid folders
 ./dist
