@@ -10,6 +10,7 @@ MANIFEST
 
 # project buid folders
 /dist
+/old-version
 
 # personal documentation
 /docs/tutorials
