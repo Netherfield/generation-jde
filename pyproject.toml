@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "generation"
+description = "Materials part of generation's JDE course"
+dynamic = ["version", "readme", "dependencies", "optional-dependencies"]
+license = {text = "MIT}
+classifiers = [
+  "Intended Audience :: Generation Partecipants/Alumni,
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: 
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.10",
+  "Operating System :: OS Independent",
+]
+[project.urls]
+"Documentaton" = "https://github.com/Netherfield/generation-jde/docs"
+"Code" = "https://github.com/Netherfield/generation-jde"
+"Issue tracker" = "https://github.com/Netherfield/generation-jde/issues"
+
+[tool.setuptools.packages.find]
+include = ["libgeneration*"]
+
+
+
+
+version = "0.0.1"
+authors = [
+  { name="Jules"},
+]
+readme = "README.md"
+requires-python = ">=3.10"
+
+
+[tool.setuptools]
+py-modules = ["__init__", "funzioniUtili", "generation"]

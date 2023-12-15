@@ -1,0 +1,9 @@
+include LICENSE
+include README
+include MANIFEST.in
+
+exclude requirements.txt
+
+graft test
+
+prune docs

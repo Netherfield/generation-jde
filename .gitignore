@@ -1,2 +1,15 @@
-./libgeneration/libgeneration.eggi-info
-./libgeneration/dist
+# temporary/object files
+*.py~
+*.so
+*.o
+
+# is this the same as MANIFEST.in ...or do I need the suffix
+MANIFEST
+# or however it's called
+./libgeneration.egg-info
+
+# project buid folders
+./dist
+
+# personal documentation
+./docs/tutorials
