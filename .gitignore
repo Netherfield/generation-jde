@@ -6,10 +6,10 @@
 # is this the same as MANIFEST.in ...or do I need the suffix
 MANIFEST
 # or however it's called
-./generation.egg-info
+/generation.egg-info
 
 # project buid folders
-./dist
+/dist
 
 # personal documentation
-./docs/tutorials
+/docs/tutorials

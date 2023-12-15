@@ -12,6 +12,7 @@ py -m build
 ### upload to TestPyPi through Twine
 run inside the project folder:
 py -m twine upload --config-file E:\git\generation\Python\libraries\token\.pypirc --repository testpypi dist/*
+
 .pypirc:
 ```
 [testpypi]
@@ -21,5 +22,9 @@ py -m twine upload --config-file E:\git\generation\Python\libraries\token\.pypir
 
 
 ### to install
-py -m pip install --index-url https://test.pypi.org/simple/ --no-deps example-package-YOUR-USERNAME-H
+- for people who had the older pacakge
+py -m pip uninstall generationproject
+
+To install then run:
+py -m pip install --index-url https://test.pypi.org/simple/ --no-deps generation
 

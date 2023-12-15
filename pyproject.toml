@@ -5,6 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "generation"
 description = "Materials part of generation's JDE course"
+authors = [{ name="Jules"},]
 dynamic = ["version", "readme", "dependencies", "optional-dependencies"]
 license = {text = "MIT"}
 classifiers = [
